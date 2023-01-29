@@ -13,7 +13,6 @@ const App = () => (
         <Route path='/' exact component={Home}></Route>
         <Route path='/auth' exact component={Auth}></Route>
       </Switch>
-      <Home />
     </Container>
   </BrowserRouter>
 );
